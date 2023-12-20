@@ -1,0 +1,135 @@
+@font-face {
+  font-family: riyad;
+  src: url(./fonts/Euclid\ Circular\ A\ Regular.ttf);
+}
+* {
+  font-family: riyad;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.headercontainer {
+  height: 100px;
+}
+.imagenobi {
+  position: relative;
+  width: 200px;
+  top: 20px;
+  left: 90px;
+}
+.endtext {
+  display: flex;
+  justify-content: flex-end;
+  font-family: riyad;
+  gap: 30px;
+  font-size: 16px;
+  color: #4f4f4f;
+  line-height: 20px;
+  margin-right: 80px;
+}
+.endtext1 {
+  cursor: pointer;
+}
+.endtext2 {
+  color: #2f80ed;
+  cursor: pointer;
+}
+.maintext {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: riyad;
+  font-size: 24px;
+  font-weight: 700;
+}
+.googleblockcontainer {
+  display: flex;
+  justify-content: center;
+}
+.googleblock {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  font-family: riyad;
+  width: 384px;
+  color: #ffffff;
+  height: 48px;
+  margin-top: 70px;
+  background-color: #2f80ed;
+  border-radius: 8px;
+}
+.or {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: riyad;
+  color: #828282;
+}
+.iconwrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-left: 5px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.googlelogo {
+  width: 30px;
+  height: 30px;
+}
+.text {
+  cursor: pointer;
+  margin-right: 80px;
+}
+.inputcontainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.inputstyle {
+  padding-left: 20px;
+  margin-top: 10px;
+  width: 384px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  display: flex;
+  outline: none;
+  flex-direction: row;
+}
+.eyestyle {
+  margin-left: 90%;
+  position: relative;
+  bottom: 40%;
+}
+.forgotpassclass {
+  display: flex;
+  justify-content: flex-end;
+  color: #2f80ed;
+}
+.forgetblockwrapper {
+  display: flex;
+  justify-content: flex-end;
+  color: #2f80ed;
+}
+.forgetblock {
+  cursor: pointer;
+}
+.btnstyle {
+  text-align: center;
+  width: 384px;
+  height: 48px;
+  margin-top: 50px;
+  color: white;
+  background-color: #00bba4;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

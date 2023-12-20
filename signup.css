@@ -1,0 +1,151 @@
+@font-face {
+  font-family: riyad;
+  src: url(./fonts/Euclid\ Circular\ A\ Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.headercontainer {
+  height: 100px;
+}
+.imagenobi {
+  position: relative;
+  width: 200px;
+  top: 20px;
+  left: 90px;
+}
+.endtext {
+  display: flex;
+  justify-content: flex-end;
+  font-family: riyad;
+  gap: 30px;
+  font-size: 16px;
+  color: #4f4f4f;
+  line-height: 20px;
+  margin-right: 80px;
+}
+.endtext1 {
+  cursor: pointer;
+}
+.endtext2 {
+  color: #2f80ed;
+  cursor: pointer;
+}
+.maintext {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: riyad;
+  font-size: 24px;
+  font-weight: 700;
+}
+.googleblockcontainer {
+  display: flex;
+  justify-content: center;
+}
+.googleblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: riyad;
+  width: 384px;
+  color: #ffffff;
+  height: 48px;
+  margin-top: 70px;
+  background-color: #2f80ed;
+  border-radius: 8px;
+}
+.whitegoogleicon {
+  position: relative;
+  right: 25px;
+}
+.googlebtn {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 757px;
+  bottom: 35px;
+}
+
+.text {
+  margin-right: 70px;
+}
+.or {
+  display: flex;
+  justify-content: center;
+  font-family: riyad;
+  color: #828282;
+}
+.inputcontainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inputclass {
+  width: 354px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  margin-top: 15px;
+  font-family: riyad;
+  font-size: 15px;
+  padding-left: 30px;
+  outline: none;
+}
+.imgeyeoff {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.inputcheckbox {
+  width: 30px;
+  height: 30px;
+  margin-top: -8px;
+}
+.checkboxtext {
+  font-family: riyad;
+  font-size: 14px;
+}
+.checkboxandtext {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 40px;
+  width: 380px;
+}
+.buttonstyle {
+  margin-top: 60px;
+  width: 384px;
+  height: 48px;
+  font-family: riyad;
+  color: white;
+  background-color: #00bba4;
+  border-radius: 8px;
+}
+.iconwrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.googlelogo {
+  width: 30px;
+  height: 30px;
+}
+.inputclassPassword{
+  width: 354px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  margin-top: 15px;
+  font-family: riyad;
+  font-size: 15px;
+  padding-left: 30px;
+  outline: none;
+}
